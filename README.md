@@ -42,4 +42,4 @@ Users should be able to:
 ## Author
 
 - Website - [Pedro Higuera](https://pedrohiguerag.xyz/)
-- Frontend Mentor - [@PedroHigueraG](https://www.frontendmentor.io/profile/PedroHigueraG)
+- Frontend Mentor - [@PedroHigueraG](https://www.frontendmentor.io/profile/PedroHigueraG)# Single-Price-Grid-Component
