@@ -1,0 +1,140 @@
+/* Variables */
+:root{
+    /* Primary */
+    --cyan: hsl(179, 62%, 43%);
+    --bright-Yellow: hsl(71, 73%, 54%);
+    --light-cyan: #4ABEBD;
+    /* Neutral */
+    --light-Gray: hsl(204, 43%, 93%);
+    --grayish-Blue: hsl(218, 22%, 67%);
+}
+/* Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Karla', sans-serif;
+    font-size: 62.5%;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+main{
+    min-height: 100vh;
+    background-color: var(--light-Gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+button{
+    width: 100%;
+    padding: 1.5rem;
+    border: none;
+    background-color: var(--bright-Yellow);
+    border-radius: 0.5rem;
+    color: #FFF;
+    font-weight: 700;
+    margin: 2rem 0;
+    font-size: 1.6rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.container{
+    margin: 2rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    max-width: 70rem;
+}
+.sec{
+    padding: 2rem;
+}
+.comunity{
+    background-color: #FFF;
+}
+.comunity h1{
+    color: var(--cyan);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.comunity span{
+    color: var(--bright-Yellow);
+    font-weight: 700;
+}
+.comunity p{
+    color: var(--grayish-Blue);
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    line-height: 2.5rem;
+}
+.second-container{
+    display: flex;
+    flex-direction: column;
+}
+.second-container h1{
+    color: #FFF;
+}
+.second-container span{
+    font-size: 3rem;
+    color: #FFF;
+    font-weight: 700;
+}
+.second-container p{
+    color: #FFF;
+    margin: 1rem 0;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.price p{
+    margin-left: 1rem;
+    color: var(--light-Gray);
+}
+.suscription{
+    background-color: var(--cyan);
+}
+.suscription h1{
+    margin-bottom: 1rem;
+}
+.why{
+    background-color: var(--light-cyan);
+}
+.why p{
+    color: var(--light-Gray);
+    line-height: 2.5rem;
+}
+/* Responsive */
+@media screen and (min-width:768px) {
+    .second-container{
+        flex-direction: row;
+    }
+    .suscription{
+        width: 50%;
+    }
+    .why{
+        width: 50%;
+    }
+    .comunity p{
+        padding-right: 4rem;
+    }
+    
+    
+    .suscription h1{
+        margin-bottom: 3rem;
+    }
+    .sec {
+        padding: 4rem;
+    }
+}
+@media screen and (min-width:1440px) {
+    
+    
+    
+}
